@@ -1,0 +1,1 @@
+ant -buildfile soomla-fortumo.xml -Dsoomla.filename="SoomlaFortumo" all
