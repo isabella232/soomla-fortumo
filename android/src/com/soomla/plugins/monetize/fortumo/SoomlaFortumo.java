@@ -29,12 +29,15 @@ public class SoomlaFortumo {
         mSavedFortumoPaymentListener = listener;
 
         final Intent intent = new Intent(SoomlaApp.getAppContext(), SoomlaFortumoActivity.class);
-//            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.putExtra("serviceId", serviceId);
         intent.putExtra("inAppSecret", inAppSecret);
         intent.putExtra("displayString", displayString);
         intent.putExtra("itemId", itemId);
         intent.putExtra("consumable", consumable);
+
+        if (!(SoomlaApp.getAppContext() instanceof Activity)) {
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        }
 
         SoomlaApp.getAppContext().startActivity(intent);
     }

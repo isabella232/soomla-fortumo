@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/SoomlaAndroidCore.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/AndroidStore.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/square-otto-1.3.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/FortumoInApp-android-9.1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -37,7 +37,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/FortumoInApp-android-9.1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/SoomlaAndroidCore.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -46,7 +46,16 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/AndroidStore.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/SoomlaFortumo.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/build/square-otto-1.3.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
